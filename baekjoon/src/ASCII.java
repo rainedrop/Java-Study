@@ -1,3 +1,5 @@
+
+
 import java.util.Scanner;
 
 public class ASCII {
@@ -6,9 +8,10 @@ public class ASCII {
 
 		Scanner sc = new Scanner(System.in);
 		
-		char input = sc.next
+		char ch = sc.nextLine().charAt(0);
+		int ASCII = (int)ch;
 		
-		
+		System.out.println(ASCII);
 		
 	}
 

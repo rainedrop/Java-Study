@@ -12,7 +12,7 @@ public class WhileQuiz01 {
 			
 		if (idx % 2 == 0) {
 			System.out.println("idx >> " + idx);
-		}
+		} 		// continue를 쓰지 않는 게 가독성은 더 좋다
 	}
 		
 }

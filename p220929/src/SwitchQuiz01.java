@@ -6,9 +6,13 @@ public class SwitchQuiz01 {
 
 		Scanner sc = new Scanner(System.in);
 		
+		// 1. 월 입력
+		
 		System.out.print("현재 월을 입력하세요 >>> ");
 		int month = sc.nextInt();
-		String season = null;
+		String season = "";
+		
+		// 2. 계절 구분
 		
 		switch (month) {
 		case 3,4,5 : 
@@ -22,8 +26,10 @@ public class SwitchQuiz01 {
 			break;
 		case 12,1,2 : 
 			season = "겨울";
-			break;
 		}
+		
+		// 3. 출력 부분
+		
 		System.out.println("현재의 계절은 " + season + "입니다.");
 	}
 

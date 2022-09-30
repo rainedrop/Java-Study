@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IfQuiz05 {
+public class IfQuiz05Refac {
 
 	public static void main(String[] args) {
 
@@ -21,35 +21,23 @@ public class IfQuiz05 {
 		
 		// 2. 학점 
 		
-		if (score >= 90) {
+		if (score % 10 >= 7 || score == 100) 
+			option = '+';
+		else if (score % 10 <= 3)
+			option = '-';
+		
+		if (score >= 90) 
 			grade = 'A';
-			if (score >= 97)
-				option = '+';
-			else if (score >= 94)
-				option = '0';
-			else if (score >= 90)
-				option = '-';
-		} else if (score >= 80) {
+		else if (score >= 80) 
 			grade = 'B';
-			if (score >= 87)
-				option = '+';
-			else if (score >= 84)
-				option = '0';
-			else if (score >= 80)
-				option = '-';
-		} else if (score >= 70) {
+		else if (score >= 70)
 			grade = 'C';
-			if (score >= 77)
-				option = '+';
-			else if (score >= 74)
-				option = '0';
-			else if (score >= 70)
-				option = '-';
-		} else {
+		else {
 			grade = 'F';
 			option = ' ';
 		}
 		
+		// 3. 출력 부분
 		
 		System.out.println("당신의 학점은 " + grade + option + "입니다.");
 		sc.close();
