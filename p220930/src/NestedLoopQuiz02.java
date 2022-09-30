@@ -12,7 +12,7 @@ public class NestedLoopQuiz02 {
 				j++;
 			}
 
-			System.out.println("");
+			System.out.println();
 			j = 1;
 			i++;
 		}

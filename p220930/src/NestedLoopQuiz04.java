@@ -14,31 +14,15 @@ public class NestedLoopQuiz04 {
 		
 		// 2. 연산
 		
-		if (userNum == 0) {
-			for (i = 2; i < 10; i++) {
-				if (i%2 == 0) {
-				for (j = 1; j < 10; j++) {
-					result = i * j;
+		for (i = 2; i < 10; i++)
+			for (j =1; j < 10; j++) {
+				result = i * j;
+				if ( userNum == 0 && i % 2 == 0 ) 
 					System.out.println(i + " * " + j + " = " + result);
-				}
-				System.out.println("");
-			}
-			}
-		} else if (userNum == 1) {
-			for (i = 2; i < 10; i++) {
-				if (i%2 != 0) {
-				for (j = 1; j < 10; j++) {
-					result = i * j;
+			    else if ( userNum == 1 && i % 2 != 0) 
 					System.out.println(i + " * " + j + " = " + result);
-				}
-				System.out.println("");
 			}
-			}
-		} else {
-			System.out.println("0이나 1을 입력해주세요.");
-			return;
-		}
-		sc.close();
+			sc.close();
 	}
 
 }

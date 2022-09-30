@@ -12,7 +12,7 @@ public class NestedLoopQuiz03 {
 				} else 
 					System.out.print("0");
 			}
-			System.out.println("");
+			System.out.println();
 		}
 		
 	}
