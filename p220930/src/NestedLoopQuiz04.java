@@ -14,7 +14,7 @@ public class NestedLoopQuiz04 {
 		
 		// 2. 연산
 		
-		for (i = 2; i < 10; i++)
+		for (i = 2; i < 10; i++) {
 			for (j =1; j < 10; j++) {
 				result = i * j;
 				if ( userNum == 0 && i % 2 == 0 ) 
@@ -22,6 +22,8 @@ public class NestedLoopQuiz04 {
 			    else if ( userNum == 1 && i % 2 != 0) 
 					System.out.println(i + " * " + j + " = " + result);
 			}
+		System.out.println();
+		}
 			sc.close();
 	}
 

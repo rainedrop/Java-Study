@@ -10,11 +10,11 @@ public class Star4 {
 		int i, j, k;
 		
 		for (i = 1; i <= Num; i++) {
-			for(j=0; j < Num; j++) {
-				System.out.print(" ");
-			}
-			for(k=1; k<=Num; k++) {
+			for (j = i-1; j <= Num; j++ ) {
 				System.out.print("*");
+			}
+			for (k = Num; k > 0; k--) { 
+				System.out.print(" ");
 			}
 			System.out.println("");
 		}

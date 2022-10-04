@@ -1,5 +1,5 @@
 
-public class FowQuiz01 {
+public class ForQuiz01 {
 
 	public static void main(String[] args) {
 
