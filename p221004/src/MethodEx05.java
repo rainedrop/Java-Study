@@ -24,9 +24,9 @@ public class MethodEx05 {
 		System.out.println("덧셈 결과 >> " + result);
 	}
 	
-	public static int sum (int n1, int n2) {
-		return n1 + n2;
-	}
+//	public static int sum (int n1, int n2) {
+//		return n1 + n2;
+//	}
 	
 	public static void sum(int n1) {}
 	public static void sum(double n1, int n2) {}
