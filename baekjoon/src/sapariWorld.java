@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sapariWorld {
+public class SapariWorld {
 
 	public static void main(String[] args) {
 

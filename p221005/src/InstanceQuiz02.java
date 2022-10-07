@@ -1,8 +1,4 @@
-
-
-public class InstanceQuiz02 {
-
-	public static class Customer {
+class Customer {
 		int id;
 		String name;
 		
@@ -13,10 +9,11 @@ public class InstanceQuiz02 {
 			this.name = name;
 		}
 		void showInfo() {
-			System.out.println("ID : " + id + ", NAME : " + name);
+			System.out.printf("ID : %d, NAME : %s\n", this.id, this.name);
 		}
 	}
 	
+public class InstanceQuiz02 {
 	public static void main(String[] args) {
 
 		Customer hong = new Customer();

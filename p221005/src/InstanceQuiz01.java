@@ -5,7 +5,7 @@ public class InstanceQuiz01 {
 		String name;
 		
 		 void showName() {
-			System.out.println("제 이름은 " + name + "입니다.");
+			System.out.println("제 이름은 " + this.name + "입니다.");
 		}
 	}
 	
