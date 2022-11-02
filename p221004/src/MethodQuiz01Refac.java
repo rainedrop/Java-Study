@@ -3,8 +3,6 @@
  *  - 메서드명 : add, 매개변수 2개, 리턴값 없음
  */
 
-
-
 public class MethodQuiz01Refac {
 	
 	public static void add(int n1, int n2) {

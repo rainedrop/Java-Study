@@ -31,7 +31,6 @@ public class SwitchQuiz02Refac {
 			printIs = false;
 		}
 		
-		
 		// 3. 출력 부분
 		
 		if (printIs) 
